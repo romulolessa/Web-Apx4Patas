@@ -41,8 +41,67 @@
   background-color: #FFFFFF;
   padding: 0.8rem;
   border-radius: 10px;
+  list-style: none;
 }
 #botton-menu ul li a{
   font-weight: bold;
   margin: 3.5vh; 
+}
+.main-apresentacao section{
+  display: flex;
+  align-items: center;
+  margin: 5vh;
+}
+.main-apresentacao h2{
+  text-align: center;
+  margin: 5.5vh;
+}
+div.linha{
+  width: 100%;
+  border: 1px solid #000;
+
+  max-width: 82vw
+}
+.main-apresentacao{
+  margin: 10.5vh
+}
+.main-apresentacao div{
+  text-align: center;
+  margin: 0 5vw;
+}
+.main-franquia{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #DD0000;
+
+  padding: 5.5vw;
+}
+.main-franquia a{
+  margin: 10vh;
+}
+.blog-top{
+  margin-left: 5vw;
+}
+.main-blog{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+article #download{
+  text-align: center;
 }
