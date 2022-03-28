@@ -9,7 +9,7 @@
 #header-text{
     color: #F50A0A;
 }
-nav{
+#main-menu{
     margin-top: 0;
 }
 #header-tele-redes{
@@ -29,26 +29,26 @@ nav{
     padding: 0.5rem;
     border-radius: 10px;
 }
-nav ul{
+#main-menu ul{
     display: flex;
     justify-content: space-between;
     background-color: #F20B0B;
 }
-nav ul li{
+#main-menu ul li{
     padding: 1rem 1.2rem;
     list-style: none;
 }
-nav ul li a {
+#main-menu ul li a {
     text-decoration: none;
     color: #FFFF;
     font-weight:bold
 }
-ul li span{
+#main-menu ul li span{
     color: #F50A0A;
     background-color: #FFFFFF;
     padding: 0.8rem;
     border-radius: 10px;
 }
-ul li span a{
+#main-menu ul li span a{
     color: #000000;
 }

@@ -1,0 +1,48 @@
+.galery {
+  max-height: 47.5vh;
+  height: auto;
+  background-color: black;
+  overflow: hidden;
+}
+
+.galery .fotos {
+  width: 500%;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+  width: 19.9%;
+}
+@keyframes animacao {
+  0% { margin-left: 0; }
+  20% { margin-left: 0; }
+  25% { margin-left: -100%; }
+  45% { margin-left: -100%; }
+  50% { margin-left: -200%; }
+  70% { margin-left: -200%; }
+  75% { margin-left: -300%; }
+  95% { margin-left: -300%; }
+  100% { margin-left: -400%; }
+}
+#botton-menu{
+  background-color: #DD0000;
+  padding: 0.5rem;
+}
+#botton-menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+#botton-menu ul li{ 
+  color: #F50A0A;
+  background-color: #FFFFFF;
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+#botton-menu ul li a{
+  font-weight: bold;
+  margin: 3.5vh; 
+}

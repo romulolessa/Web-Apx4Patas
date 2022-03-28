@@ -1,0 +1,25 @@
+#footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem;
+    background-color: #FDED04;
+}
+#footer-info ul{
+    list-style: none;
+}
+#footer-info li{
+    padding: 0.2rem;
+}
+#footer-info span{
+    font-weight:bold
+}
+#Footer-info-dev{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0.5rem;
+    background-color: #DD0000;
+}
