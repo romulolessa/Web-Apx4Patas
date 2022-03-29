@@ -76,10 +76,15 @@ div.linha{
 
   background-color: #DD0000;
 
-  padding: 5.5vw;
+  padding: 4.5vw;
 }
 .main-franquia a{
   margin: 10vh;
+}
+.img-franquia{
+  position: absolute;
+  max-width: 45vh;
+  padding: 0 0 0.9vw 70vw;
 }
 .blog-top{
   margin-left: 5vw;
@@ -103,5 +108,35 @@ div.linha{
   cursor: pointer;
 }
 article #download{
+  border-radius: 4px;
+  background-color: #FDED04;
+  border: none;
+  color: #DD0000;
   text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px 0 10px 45%;
+}
+#download a{
+  position: relative;
+  transition: 0.5s;
+  color: #DD0000;
+  text-decoration: none;
+}
+#download a::after{
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+#download:hover a{
+  padding-right: 25px;
+}
+#download:hover a::after{
+  opacity: 1;
+  right: 0;
 }
