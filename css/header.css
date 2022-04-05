@@ -49,6 +49,12 @@
     padding: 0.8rem;
     border-radius: 10px;
 }
+#main-menu ul li:nth-child(8) span{
+    color: #F50A0A;
+    background-color: #FDED04;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
 #main-menu ul li span a{
     color: #000000;
 }

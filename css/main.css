@@ -26,6 +26,9 @@
   95% { margin-left: -300%; }
   100% { margin-left: -400%; }
 }
+.img-banner{
+  max-width: 100rem;
+}
 #botton-menu{
   background-color: #DD0000;
   padding: 0.5rem;
